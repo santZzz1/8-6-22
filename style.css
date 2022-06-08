@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+   background-image: url(../imagenes/fondo\ asteti.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: rgb(120, 91, 147);
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgba(77, 48, 76, 0.212);
+    width: 100%;
+}
+menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: #7858A6;
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(77, 48, 76, 0.212);
+    border-radius: 50px;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(77, 48, 76, 0.212);
+    color: white;
+}
+button[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+    background-color: rgba(77, 48, 76, 0.212);;
+}
